@@ -1,0 +1,21 @@
+{
+  "name": "js-modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "browserify src/index.js -o dist/bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "lite-server": "^2.4.0"
+  },
+  "devDependencies": {
+    "browserify": "^16.2.2"
+  }
+}
